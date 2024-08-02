@@ -1,0 +1,20 @@
+00:00:00.524508 VirtualBox GUI VM Selector Window 7.0.12 r159484 win.amd64 (Oct 12 2023 19:53:29) release log
+00:00:00.524510 Log opened 2024-02-20T09:23:59.639384800Z
+00:00:00.524510 Build Type: release
+00:00:00.524514 OS Product: Windows 11
+00:00:00.524515 OS Release: 10.0.22621
+00:00:00.524515 OS Service Pack: 
+00:00:00.536557 DMI Product Name: VivoBook_ASUSLaptop X515EA_X515EA
+00:00:00.541190 DMI Product Version: 1.0       
+00:00:00.541208 Firmware type: UEFI
+00:00:00.541503 Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.541519 Host RAM: 7886MB (7.7GB) total, 2485MB (2.4GB) available
+00:00:00.541522 Executable: C:\Program Files\Oracle\VirtualBox\VirtualBox.exe
+00:00:00.541523 Process ID: 8232
+00:00:00.541523 Package type: WINDOWS_64BITS_GENERIC
+00:00:00.541668 Qt version: 5.15.2
+00:00:00.542235 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.560012 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:01.622252 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:27:22.786086 GUI: UICommon: Handling aboutToQuit request..
+00:27:24.081648 GUI: UICommon: aboutToQuit request handled!

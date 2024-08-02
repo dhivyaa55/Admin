@@ -1,5 +1,6 @@
 require('dotenv').config();
 const express = require('express');
+const path = require('path');
 const bodyParser = require('body-parser');
 const sgMail = require('@sendgrid/mail');
 
@@ -10,8 +11,8 @@ sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.static(path.join(__dirname, 'public')));
 
-// Function to send a welcome email
 const sendWelcomeEmail = (email, name) => {
     const msg = {
         to: email,
@@ -31,7 +32,6 @@ const sendWelcomeEmail = (email, name) => {
         });
 };
 
-// Endpoint to send a welcome email
 app.post('/send-welcome-email', (req, res) => {
     const { email, name } = req.body;
 
